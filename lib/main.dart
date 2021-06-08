@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'calculo.dart';
+import 'calculadora.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,7 +27,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  var calculo = new Calculo();
+  var calculadora = new Calculadora();
 
   @override
   Widget build(BuildContext context) {
@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number1 += '0';
+                        calculadora.number1 += '0';
                       });
                     },
                     child: Text('0'),
@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number1 += '1';
+                        calculadora.number1 += '1';
                       });
                     },
                     child: Text('1'),
@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number1 += '2';
+                        calculadora.number1 += '2';
                       });
                     },
                     child: Text('2'),
@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number1 += '3';
+                        calculadora.number1 += '3';
                       });
                     },
                     child: Text('3'),
@@ -128,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number1 += '4';
+                        calculadora.number1 += '4';
                       });
                     },
                     child: Text('4'),
@@ -152,7 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number1 += '5';
+                        calculadora.number1 += '5';
                       });
                     },
                     child: Text('5'),
@@ -170,7 +170,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number1 += '6';
+                        calculadora.number1 += '6';
                       });
                     },
                     child: Text('6'),
@@ -188,7 +188,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number1 += '7';
+                        calculadora.number1 += '7';
                       });
                     },
                     child: Text('7'),
@@ -206,7 +206,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number1 += '8';
+                        calculadora.number1 += '8';
                       });
                     },
                     child: Text('8'),
@@ -224,7 +224,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number1 += '9';
+                        calculadora.number1 += '9';
                       });
                     },
                     child: Text('9'),
@@ -248,7 +248,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.operation = '+';
+                        calculadora.operation = '+';
                       });
                     },
                     child: Text('+'),
@@ -266,7 +266,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.operation = '-';
+                        calculadora.operation = '-';
                       });
                     },
                     child: Text('-'),
@@ -284,7 +284,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.operation = '*';
+                        calculadora.operation = '*';
                       });
                     },
                     child: Text('*'),
@@ -302,7 +302,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.operation = '/';
+                        calculadora.operation = '/';
                       });
                     },
                     child: Text('/'),
@@ -320,7 +320,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.operation = '%';
+                        calculadora.operation = '%';
                       });
                     },
                     child: Text('%'),
@@ -344,7 +344,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number2 += '0';
+                        calculadora.number2 += '0';
                       });
                     },
                     child: Text('0'),
@@ -362,7 +362,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number2 += '1';
+                        calculadora.number2 += '1';
                       });
                     },
                     child: Text('1'),
@@ -380,7 +380,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number2 += '2';
+                        calculadora.number2 += '2';
                       });
                     },
                     child: Text('2'),
@@ -398,7 +398,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number2 += '3';
+                        calculadora.number2 += '3';
                       });
                     },
                     child: Text('3'),
@@ -416,7 +416,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number2 += '4';
+                        calculadora.number2 += '4';
                       });
                     },
                     child: Text('4'),
@@ -440,7 +440,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number2 += '5';
+                        calculadora.number2 += '5';
                       });
                     },
                     child: Text('5'),
@@ -458,7 +458,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number2 += '6';
+                        calculadora.number2 += '6';
                       });
                     },
                     child: Text('6'),
@@ -476,7 +476,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number2 += '7';
+                        calculadora.number2 += '7';
                       });
                     },
                     child: Text('7'),
@@ -494,7 +494,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number2 += '8';
+                        calculadora.number2 += '8';
                       });
                     },
                     child: Text('8'),
@@ -512,7 +512,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number2 += '9';
+                        calculadora.number2 += '9';
                       });
                     },
                     child: Text('9'),
@@ -531,17 +531,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        if (calculo.operation == '+') {
-                          calculo.somar();
-                        } else if (calculo.operation == '-') {
-                          calculo.subtrair();
-                        } else if (calculo.operation == '*') {
-                          calculo.multiplicar();
-                        } else if (calculo.operation == '/') {
-                          calculo.dividir();
-                        } else if (calculo.operation == '%') {
-                          calculo.modulo();
-                        }
+                        calculadora.executarOperacao();
                       });
                     },
                     child: Text('Calcular'),
@@ -554,10 +544,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     onPressed: () {
                       setState(() {
-                        calculo.number1 = '';
-                        calculo.operation = '';
-                        calculo.number2 = '';
-                        calculo.result = '';
+                        calculadora.number1 = '';
+                        calculadora.operation = '';
+                        calculadora.number2 = '';
+                        calculadora.result = '';
                       });
                     },
                     child: Text('Zerar'),
@@ -571,7 +561,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 10,
                   ),
                   Text(
-                    'Operação: ${calculo.number1} ${calculo.operation} ${calculo.number2}',
+                    'Operação: ${calculadora.number1} ${calculadora.operation} ${calculadora.number2}',
                     style: const TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 30,
@@ -587,7 +577,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 10,
                   ),
                   Text(
-                    'Resultado: ${calculo.result}',
+                    'Resultado: ${calculadora.result}',
                     overflow: TextOverflow.ellipsis,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,

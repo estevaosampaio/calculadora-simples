@@ -1,4 +1,4 @@
-class Calculo {
+class Calculadora {
   String number1 = '';
   String number2 = '';
   String operation = '';
@@ -8,9 +8,13 @@ class Calculo {
 
   var result = '';
 
-  void somar() {
+  void parseNumber() {
     calc1 = int.parse(number1);
     calc2 = int.parse(number2);
+  }
+
+  void somar() {
+    parseNumber();
 
     calc = (calc1 + calc2);
 
@@ -51,5 +55,13 @@ class Calculo {
     calc = (calc1 % calc2);
 
     result = calc.toString();
+  }
+
+  void executarOperacao() {
+    if (operation == '+') somar();
+    if (operation == '-') subtrair();
+    if (operation == '*') multiplicar();
+    if (operation == '/') dividir();
+    if (operation == '%') modulo();
   }
 }
