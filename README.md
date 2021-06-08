@@ -1,16 +1,26 @@
-# calculadora
 
-A new Flutter project.
 
-## Getting Started
+# Sobre o Projeto
 
-This project is a starting point for a Flutter application.
+Aplicativo proposto pela oficina da aula 2.5 do curso de flutter da plataforma Lead Dell com o intuito de colocar em prática os assuntos abordados( widgets básicos e mudança e estado).
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Layout Proposto:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![modelo_calc_leaddell](https://user-images.githubusercontent.com/70150982/121225450-e8e98b00-c85f-11eb-8ad4-cbbba26d771a.png)
+
+
+## Layout Desenvolvido:
+
+![print1](https://user-images.githubusercontent.com/70150982/121232117-a035d000-c867-11eb-87de-82ad84ce59d5.png) ![print2](https://user-images.githubusercontent.com/70150982/121232156-acba2880-c867-11eb-981b-5228d257e52a.png)
+
+
+
+## Funcionalidades:
+
+- Os botões numéricos na parte superior selecionam o  primeiro número da operação.
+- Os botoes entre os numéricos selecionam a operação a ser feita.
+- Os botões numéricos na parte inferior selecionam o  segunda número da operação.
+- O botão calcular realiza a operação, que será exibida ao lado  do texto "Resultado:".
+- O botão zerar apaga a operação realizada.
+- Ao lado do texto "Operação:" será exibido a operação realizada.
