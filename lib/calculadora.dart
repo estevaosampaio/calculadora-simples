@@ -22,8 +22,7 @@ class Calculadora {
   }
 
   void subtrair() {
-    calc1 = int.parse(number1);
-    calc2 = int.parse(number2);
+    parseNumber();
 
     calc = (calc1 - calc2);
 
@@ -31,8 +30,7 @@ class Calculadora {
   }
 
   void multiplicar() {
-    calc1 = int.parse(number1);
-    calc2 = int.parse(number2);
+    parseNumber();
 
     calc = (calc1 * calc2);
 
@@ -40,8 +38,7 @@ class Calculadora {
   }
 
   void dividir() {
-    calc1 = int.parse(number1);
-    calc2 = int.parse(number2);
+    parseNumber();
 
     calc = (calc1 ~/ calc2);
 
@@ -49,8 +46,7 @@ class Calculadora {
   }
 
   void modulo() {
-    calc1 = int.parse(number1);
-    calc2 = int.parse(number2);
+    parseNumber();
 
     calc = (calc1 % calc2);
 
